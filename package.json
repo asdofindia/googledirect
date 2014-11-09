@@ -1,0 +1,24 @@
+{
+  "name": "asdofindia-google-direct",
+  "description": "Google Direct",
+  "version": "0.0.0",
+  "author": "asdofindia",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "docpad": "~6.59.6",
+    "docpad-plugin-eco": "~2.0.2",
+    "docpad-plugin-marked": "~2.1.2",
+    "docpad-plugin-ghpages": "~2.4.0",
+    "docpad-plugin-coffeescript": "~2.2.3"
+  },
+  "devDependencies": {
+    "docpad": "~6.56.0",
+    "docpad-plugin-livereload": "~2.5.3"
+  },
+  "main": "node_modules/docpad/bin/docpad-server",
+  "scripts": {
+    "start": "node ./node_modules/docpad/bin/docpad run"
+  }
+}

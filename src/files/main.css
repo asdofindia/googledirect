@@ -38,7 +38,8 @@ input, textarea {
     font: 1em sans-serif;
 
     /* To give the same size to all text field */
-    width: 300px;
+    width:70%;
+    
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
@@ -46,17 +47,24 @@ input, textarea {
     border: 1px solid #999;
 }
 
+@media all and (min-width: 600px){
+    	input, textarea{
+    		width: 300px;
+    	}
+	}
+
 input:focus, textarea:focus {
     /* To give a little highlight on active elements */
     border-color: #000;
 }
 
-.button {
-    /* To position the buttons to the same position of the text fields */
-    padding-left: 90px; /* same size as the label elements */
+footer{
+	text-align: center;
 }
-button {
-    /* This extra margin represent roughly the same space as the space
-       between the labels and their text fields */
-    margin-left: .5em;
+#abouttext{
+	visibility: hidden;
+}
+
+.aboutbutton {
+	margin-top: 100px;
 }

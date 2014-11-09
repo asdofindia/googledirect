@@ -16,12 +16,7 @@
   <%- @getBlock('styles').add(@site.styles).toHTML() %>
 </head>
 <body>
-  <header>
-    <h1><%= @document.title || @site.title %></h1>
-  </header>
-  <article>
     <%- @content %>
-  </article>
 
   <!-- DocPad Scripts + Our Own -->
   <%- @getBlock('scripts').add(@site.scripts).toHTML() %>

@@ -8,17 +8,16 @@ docpadConfig = {
       title: "Google Direct"
 
       # The production url of our website.
-      url: "http://example.com"
+      url: "http://asdofindia.github.io/googledirect/"
 
       # The website description (for SEO).
       description: """
-        When your website appears in search results in say Google, the text here
-        will be shown underneath your website's title.
+        Use Google to download books, videos, songs
         """
 
       # The website keywords (for SEO) separated by commas.
       keywords: """
-        place, your, website, keywords, here
+        download, ebooks, songs, videos
         """
 
       # The cascading stylesheets for the site.
